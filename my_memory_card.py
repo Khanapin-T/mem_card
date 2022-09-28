@@ -12,13 +12,9 @@ class Question():
 
 questions_list = []
 questions_list.append(Question('Государственный язык США', 'Американский', 'Английский(United Kingdom)', 'Немецкий', 'Французский'))
-questions_list.append(Question('Скольки равен корень из 144', '12', '41', '71', '21'))
-questions_list.append(Question('Какого цвета нет на флаге России', 'Зелёный', 'Белый', 'Красный', 'Синий'))
-questions_list.append(Question('Сколько дней нужно, чтобы Земля совершила оборот вокруг Солнца', '365', '24', '7', '720'))
 questions_list.append(Question('Какой элемент обозначается химическим символом (Fe) в периодической таблице', 'Железо', 'Медь', 'Дубний', 'Феридий'))
 questions_list.append(Question('В каком году случился распад Советского Союзa', '1991', '1945', '1816', '2002'))
 questions_list.append(Question('Какая самая большая страна в мире', 'Россия', 'США', 'Китай', 'Италия'))
-questions_list.append(Question('Сколько игроков в бейсбольной команде', '9', '4', '11', '7'))
 
 app = QApplication([])
 
